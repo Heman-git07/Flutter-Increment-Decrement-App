@@ -1,16 +1,47 @@
-# flutter_assignment
+# Flutter Increment-Decrement App:
+## Overview:
+This Flutter project is a simple application that includes three primary screens: Sign In, Sign Up, and Home. The app allows users to create an account, log in, and manage a numeric value on their home screen, which can be incremented or decremented.
 
-A new Flutter project.
+## Features:
+### Sign In Screen:
+ - Users can log in with their credentials.
+ - Redirects to the Home screen upon successful login.
 
-## Getting Started
+### Sign Up Screen:
+ - Users can create a new account by providing a username and password.
+ - After registration, users are automatically redirected to the login screen.
 
-This project is a starting point for a Flutter application.
+### Home Screen:
+ - Displays a value that is associated to each user.
+ - Users can increment or decrement the value.
+ - The value is saved locally using SQLite.
 
-A few resources to get you started if this is your first Flutter project:
+## Technology Stack
+ - **Flutter**: For building the mobile app.
+ - **SQLite**: For local data storage.
+ - **sqflite**: A Flutter plugin used to interact with SQLite databases.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+To run this project locally, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**1. Clone the Repository:**
+```bash
+git clone https://github.com/Heman-git07/Flutter-Increment-Decrement-App.git
+```
+**2. Navigate to the Project Directory:**
+```bash
+cd Flutter-Increment-Decrement-App
+```
+**3. Install Dependencies:**
+```bash
+flutter pub get
+```
+**4. Run the App:**
+```bash
+flutter run
+```
+
+## Demo:
+[Watch the Demo Video](https://www.youtube.com/watch?v=NZ2BKLWixMw)
+
+
